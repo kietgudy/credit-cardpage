@@ -4,6 +4,9 @@
 
 @layer components {
     .check-content {
-        @apply mb-[35px] flex gap-8 ml-[70px] mr-[30px] items-center
+        @apply mb-[35px] flex gap-8 ml-[70px] mr-[30px] items-center md:mx-0
+    }
+    .btn-hover {
+        @apply cursor-pointer flex flex-col items-start py-2 px-4 hover:bg-slate-400
     }
 }
